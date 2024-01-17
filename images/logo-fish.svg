@@ -1,0 +1,30 @@
+<svg id="Слой_3" data-name="Слой 3" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     viewBox="0 0 74.63 59.71">
+    <defs>
+        <style>
+            .cls-1{fill:#009ae6;}.cls-2{fill:url(#Безымянный_градиент_12);}.cls-3{fill:url(#Безымянный_градиент_12-2);}.cls-4{fill:url(#Безымянный_градиент_12-3);}.cls-5{fill:#069;}.cls-6{fill:#0080bf;}.cls-7{fill:#fff;}
+        </style>
+        <linearGradient id="Безымянный_градиент_12" x1="-7.46" y1="22.39" x2="7.46" y2="37.32"
+                        gradientUnits="userSpaceOnUse">
+            <stop offset="0.55" stop-color="#005782"/>
+            <stop offset="0.69" stop-color="#00557f"/>
+            <stop offset="0.79" stop-color="#004f76"/>
+            <stop offset="0.88" stop-color="#004665"/>
+            <stop offset="0.97" stop-color="#00384f"/>
+            <stop offset="1" stop-color="#003144"/>
+        </linearGradient>
+        <linearGradient id="Безымянный_градиент_12-2" x1="20.5" y1="66.35" x2="38.02" y2="51.65"
+                        xlink:href="#Безымянный_градиент_12"/>
+        <linearGradient id="Безымянный_градиент_12-3" x1="20.5" y1="-6.65" x2="38.02" y2="8.05"
+                        xlink:href="#Безымянный_градиент_12"/>
+    </defs>
+    <rect class="cls-1" x="49.15" y="19.3" width="21.11" height="21.11" transform="translate(-3.62 50.96) rotate(-45)"/>
+    <polygon class="cls-2" points="0 14.93 0 44.78 14.93 29.85 0 14.93"/>
+    <polygon class="cls-3" points="14.93 59.71 44.78 59.71 29.85 44.78 14.93 59.71"/>
+    <polygon class="cls-4" points="44.78 0 14.93 0 29.85 14.93 44.78 0"/>
+    <rect class="cls-5" x="19.3" y="19.3" width="21.11" height="21.11" transform="translate(-12.37 29.85) rotate(-45)"/>
+    <rect class="cls-6" x="34.23" y="4.37" width="21.11" height="21.11" transform="translate(2.56 36.04) rotate(-45)"/>
+    <rect class="cls-6" x="34.23" y="34.23" width="21.11" height="21.11"
+          transform="translate(-18.55 44.78) rotate(-45)"/>
+    <circle class="cls-7" cx="59.71" cy="29.85" r="3.56"/>
+</svg>
