@@ -119,7 +119,7 @@ line-height: 130%;
 .training-materials__title {
 color: #FFF;
 text-align: center;
-font-size: 48px;
+font-size: 3rem;
 font-weight: 700;
 line-height: 110%; /* 52.8px */
 margin-bottom: 51px;
@@ -130,8 +130,7 @@ margin-bottom: 51px;
 	display: grid;
 	grid-template-columns: 303px 449px 290px 61px;
 	grid-template-rows: auto 1fr auto;
-	/* gap: 10px; */
-	border-radius: 50px;
+		/* border-radius: 50px; */
 border: 1px solid #DEE2E6;
 background: #FFF;
 }
@@ -225,8 +224,7 @@ background: #FFF;
 .webinar-block{
 	min-height: 376px;
 	margin-bottom: 161px;
-	padding-top: 0;
-	padding-bottom: 0;
+	padding: 56px 40px 40px 72px;
 	position: relative;
 }
 .webinar-block::after {
@@ -250,22 +248,21 @@ background: #FFF;
 font-weight: 700;
 line-height: 110%;
 margin-bottom: 41px;
+
 }
 .landing-page .webinar-block__text{
   font-size: 1.25rem;
   font-weight: 700;
   line-height: 110%;
   margin-bottom: 41px;
-  padding: 0px 15px;
   }
 
   
-  .questions {
-}
+
 .landing-page .questions__title {
 color: #145388;
 text-align: center;
-font-size: 48px;
+font-size: 3rem;
 font-weight: 700;
 line-height: 110%; /* 52.8px */
 margin-bottom: 51px;
@@ -278,15 +275,12 @@ flex-direction: column;
 row-gap: 32px;
 border-radius: 50px;
 background: #FFF;
-box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, 0.10);
+/* box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, 0.10); */
 margin-bottom: 30px;
-}
-.spoiler {
 }
 .spoiler-header {
 	display: flex;
 	justify-content: space-between;
-	/* width: 100%; */
 cursor: pointer;
 color: #465156;
 font-size: 18px;
@@ -305,6 +299,10 @@ font-size: 18px;
 font-style: italic;
 font-weight: 400;
 line-height: 110%; /* 19.8px */
+ }
+ 
+ .spoiler.open .spoiler-content {
+	display: block;
  }
 
  .spoiler.open .arrow-icon {
@@ -340,7 +338,7 @@ margin-bottom: 87px;
 }
 .landing-page .contacts__title{
 	color: #FFF;
-font-size: 36px;
+font-size: 2.3rem;
 font-weight: 700;
 line-height: 110%;
 }
@@ -425,3 +423,19 @@ text-decoration-line: underline;
 .landing-page .section.footer{
 	background-color: inherit;
 }
+
+.landing-page .footer .footer-content {
+	padding-top: 163px;
+}
+.row.footer-row {
+	margin-right: clamp(-75px, -20px, -15px);
+}
+.icon-contacts img {
+	margin-right: clamp(-165px, -80px, 0px);
+}
+
+@media (max-width: 768px){
+	.footer-container, .contacts-container {
+		overflow: hidden;
+	}
+	}

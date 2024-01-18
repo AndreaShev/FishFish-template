@@ -176,4 +176,8 @@ flex-direction: column-reverse;
 row-gap: 40px;
  }
 }
+
+.row.registration.home-row{
+	padding-bottom: 200px;
+}
  /*  -------  */
