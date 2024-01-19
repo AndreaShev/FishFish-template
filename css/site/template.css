@@ -397,4 +397,7 @@ text-decoration-line: underline;
 	.footer-container, .contacts-container {
 		overflow: hidden;
 	}
+	.icon-contacts img{
+		width: 50%;
+	}
 	}
