@@ -401,8 +401,9 @@ text-decoration-line: underline;
 		width: 50%;
 	}
 	}
-.clients .card__image.template-card__image{
-  max-width: 100%;
+
+	.clients .card__image.template-card__image{
+		max-width: 100%;
     height: 114px;
     object-fit: contain;
 	}
